@@ -1,5 +1,3 @@
-function LoiMuonNoi() {
-    return prompt('Em có muốn nói gì với tôi không')
-}
+let killBoardList = fetch('https://gameinfo.albiononline.com/api/gameinfo/events?limit=51&offset=0')
 
-LoiMuonNoi()
+console.log(killBoardList)
